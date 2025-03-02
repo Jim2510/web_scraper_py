@@ -139,7 +139,7 @@ def main():
             send_telegram_message(message)
             print(f"Il prezzo di {product_name} è ancora alto: €{price}")
 
-        time.sleep(random.randint(2, 4))
+        time.sleep(random.randint(10, 15))
 
 
 if __name__ == "__main__":
